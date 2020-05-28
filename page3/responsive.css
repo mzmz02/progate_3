@@ -1,0 +1,61 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .container h1{
+    font-size:32px;
+  }
+  .heading h2{
+    font-size:20px;
+  }
+  .lesson{
+    width:50%;
+    padding-bottom:50px;
+  }
+  
+  .midasi{
+    font-size:14px;
+  }
+  
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .header-right{
+    display:none;
+  }
+  
+  .menu{
+    display:block;
+  }
+  
+  .container h1{
+    font-size:24px;
+    text-align:left;
+  }
+  
+  .midasi{
+    text-align:left;
+  }
+
+  .btn-wrapper p{
+    text-align:center;
+    display:block;
+  }
+  
+  .signup{
+    width:100%;
+  }
+  
+  .facebook{
+    width:100%;
+    margin-bottom:10px;
+  }
+  
+  .twitter{
+    width:100%;
+  }
+  
+  .lesson{
+    width:100%;
+  }
+  
+}
